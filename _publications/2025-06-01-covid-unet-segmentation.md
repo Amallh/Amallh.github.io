@@ -1,6 +1,7 @@
 ---
 title: "Attention-Enhanced U-Net for Accurate Segmentation of COVID-19 Infected Lung Regions in CT Scans"
 collection: publications
+category: manuscripts
 permalink: /publication/2025-covid-unet-segmentation
 excerpt: 'arXiv preprint, 2025.'
 date: 2025-06-01
