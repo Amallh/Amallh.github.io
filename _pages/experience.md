@@ -13,6 +13,8 @@ Research, industry, and laboratory experience across biomedical AI and medical t
 
 Research on vision-language models for liver lesion diagnosis from multiphase MRI, including fine-tuning Gemma models and building reproducible ML pipelines and statistical analysis frameworks for clinical AI validation. This work formed my Master's thesis, "Multiphase Liver MRI Classification with Vision-Language Models: From Benchmark Prompting to Interpretable Explanations".
 
+<figure style="margin:1em 0 2em;"><a href="/images/exp-erasmus-mc.jpg" target="_blank" rel="noopener"><img src="/images/exp-erasmus-mc.jpg" alt="Presenting my Master's thesis at the University of Kragujevac" loading="lazy" style="width:100%; max-width:360px; border-radius:8px;"></a><figcaption style="font-size:0.85em; opacity:0.8;">Master's thesis defence at the University of Kragujevac</figcaption></figure>
+
 ## AI Developer
 
 **OFoundation** · Utrecht, Netherlands · Internship · Apr 2025 – Jan 2026
@@ -24,6 +26,8 @@ Worked on projects at the intersection of AI and healthcare:
 - Cloud-based solutions on Amazon Web Services (AWS) and automated workflows with n8n
 - Contributing to Vapi voice agent integration
 - Implementing speech transcription and diarization pipelines for internal projects
+
+<figure style="margin:1em 0 2em;"><a href="/images/exp-ofoundation.jpg" target="_blank" rel="noopener"><img src="/images/exp-ofoundation.jpg" alt="At my desk during my AI Developer internship at OFoundation" loading="lazy" style="width:100%; max-width:360px; border-radius:8px;"></a><figcaption style="font-size:0.85em; opacity:0.8;">At work during my internship at OFoundation</figcaption></figure>
 
 ## Team Lead / ML Engineer
 
@@ -38,6 +42,16 @@ Skills: Python, leadership.
 - Calibration training for Shimadzu instruments: HPLC, GC, atomic absorption spectrophotometer, IR, and UV
 - Installation and maintenance
 - Validation and regulation: preventive maintenance, performance quality, and installation quality
+
+<div style="display:grid; grid-template-columns:repeat(auto-fill,minmax(150px,1fr)); gap:8px; margin:1em 0 2em;">
+<a href="/images/exp-cadmium-1.jpg" target="_blank" rel="noopener"><img src="/images/exp-cadmium-1.jpg" alt="Training certificate from Cadmium for Lab Equipment &amp; Maintenance, June to August 2023" loading="lazy" style="width:100%; aspect-ratio:1/1; object-fit:cover; border-radius:8px; object-fit:contain; background:#fff;"></a>
+<a href="/images/exp-cadmium-1%235.jpg" target="_blank" rel="noopener"><img src="/images/exp-cadmium-1%235.jpg" alt="Shimadzu HPLC system" loading="lazy" style="width:100%; aspect-ratio:1/1; object-fit:cover; border-radius:8px;"></a>
+<a href="/images/exp-cadmium-2.jpg" target="_blank" rel="noopener"><img src="/images/exp-cadmium-2.jpg" alt="Shimadzu instrument with the door open" loading="lazy" style="width:100%; aspect-ratio:1/1; object-fit:cover; border-radius:8px;"></a>
+<a href="/images/exp-cadmium-3.jpg" target="_blank" rel="noopener"><img src="/images/exp-cadmium-3.jpg" alt="Shimadzu laboratory instrument" loading="lazy" style="width:100%; aspect-ratio:1/1; object-fit:cover; border-radius:8px;"></a>
+<a href="/images/exp-cadmium-4.jpg" target="_blank" rel="noopener"><img src="/images/exp-cadmium-4.jpg" alt="Mass spectrometer" loading="lazy" style="width:100%; aspect-ratio:1/1; object-fit:cover; border-radius:8px;"></a>
+<a href="/images/exp-cadmium-8.jpg" target="_blank" rel="noopener"><img src="/images/exp-cadmium-8.jpg" alt="Inside a Shimadzu instrument during maintenance" loading="lazy" style="width:100%; aspect-ratio:1/1; object-fit:cover; border-radius:8px;"></a>
+<a href="/images/exp-cadmium-9.jpg" target="_blank" rel="noopener"><img src="/images/exp-cadmium-9.jpg" alt="Laboratory instrument component" loading="lazy" style="width:100%; aspect-ratio:1/1; object-fit:cover; border-radius:8px;"></a>
+</div>
 
 ## Laboratory Equipment Trainee
 
@@ -70,3 +84,13 @@ Tools: MATLAB.
 - PCR and laboratory automation
 - PACS and DICOM protocols
 - Sales concepts
+
+<div style="display:grid; grid-template-columns:repeat(auto-fill,minmax(150px,1fr)); gap:8px; margin:1em 0 2em;">
+<a href="/images/exp-siemens-1.jpg" target="_blank" rel="noopener"><img src="/images/exp-siemens-1.jpg" alt="Working on medical equipment during my internship at Siemens Healthineers" loading="lazy" style="width:100%; aspect-ratio:1/1; object-fit:cover; border-radius:8px;"></a>
+<a href="/images/exp-siemens-2.jpg" target="_blank" rel="noopener"><img src="/images/exp-siemens-2.jpg" alt="Siemens radiotherapy equipment" loading="lazy" style="width:100%; aspect-ratio:1/1; object-fit:cover; border-radius:8px;"></a>
+<a href="/images/exp-siemens-3.jpg" target="_blank" rel="noopener"><img src="/images/exp-siemens-3.jpg" alt="Inside a Siemens medical imaging system during maintenance" loading="lazy" style="width:100%; aspect-ratio:1/1; object-fit:cover; border-radius:8px;"></a>
+<a href="/images/exp-siemens-4.jpg" target="_blank" rel="noopener"><img src="/images/exp-siemens-4.jpg" alt="Siemens SOMATOM CT scanner" loading="lazy" style="width:100%; aspect-ratio:1/1; object-fit:cover; border-radius:8px;"></a>
+<a href="/images/exp-siemens-5.jpg" target="_blank" rel="noopener"><img src="/images/exp-siemens-5.jpg" alt="Hospital procedure room with imaging equipment" loading="lazy" style="width:100%; aspect-ratio:1/1; object-fit:cover; border-radius:8px;"></a>
+<a href="/images/exp-siemens-6.jpg" target="_blank" rel="noopener"><img src="/images/exp-siemens-6.jpg" alt="CT scanner in a hospital" loading="lazy" style="width:100%; aspect-ratio:1/1; object-fit:cover; border-radius:8px;"></a>
+<a href="/images/exp-siemens-7.jpg" target="_blank" rel="noopener"><img src="/images/exp-siemens-7.jpg" alt="Siemens MRI scanner" loading="lazy" style="width:100%; aspect-ratio:1/1; object-fit:cover; border-radius:8px;"></a>
+</div>
