@@ -3,4 +3,47 @@
 <!-- Support for MathJax -->
 <script id="MathJax-script" defer src="https://cdn.jsdelivr.net/npm/mathjax@4.0.0/tex-mml-chtml.js"></script>
 
+<!-- Photo galleries (div.gal with img children) -->
+<style>
+.gal{margin:1em 0 2.5em}
+.gal:not([data-ready]) img{width:100%;max-width:360px;border-radius:8px;display:block;margin-bottom:8px}
+.gal-stage{position:relative;background:#eef0f3;border-radius:14px;overflow:hidden;box-shadow:0 6px 24px rgba(0,0,0,.14);aspect-ratio:4/3}
+.gal-stage img{width:100%;height:100%;object-fit:contain;display:block;cursor:zoom-in}
+.gal-btn{position:absolute;top:50%;transform:translateY(-50%);width:38px;height:38px;border-radius:50%;border:0;background:rgba(0,0,0,.45);color:#fff;font-size:22px;line-height:1;cursor:pointer}
+.gal-btn:hover{background:rgba(0,0,0,.7)}
+.gal-prev{left:10px}
+.gal-next{right:10px}
+.gal-count{position:absolute;right:10px;bottom:10px;background:rgba(0,0,0,.55);color:#fff;font-size:12px;padding:2px 9px;border-radius:10px}
+.gal-cap{margin:8px 2px 0;font-size:.85em;opacity:.8;min-height:1.3em}
+.gal-thumbs{display:flex;gap:8px;margin-top:8px;overflow-x:auto;padding-bottom:4px}
+.gal-thumbs img{width:76px;height:76px;object-fit:cover;border-radius:8px;opacity:.5;cursor:pointer;flex:none;border:2px solid transparent;transition:opacity .2s,border-color .2s}
+.gal-thumbs img:hover{opacity:.85}
+.gal-thumbs img.on{opacity:1;border-color:#3b82f6}
+</style>
+<script>
+document.querySelectorAll('.gal').forEach(function(g){
+if(g.dataset.ready)return;
+var src=[].map.call(g.querySelectorAll('img'),function(i){return{s:i.getAttribute('src'),a:i.getAttribute('alt')||''}});
+g.dataset.ready=1;
+g.innerHTML='';
+var st=document.createElement('div');st.className='gal-stage';
+var big=document.createElement('img');st.appendChild(big);
+var cap=document.createElement('p');cap.className='gal-cap';
+var cur=0;
+function mk(cls,txt,label){var b=document.createElement('button');b.className='gal-btn '+cls;b.innerHTML=txt;b.setAttribute('aria-label',label);return b}
+var p=mk('gal-prev','&#8249;','Previous photo'),n=mk('gal-next','&#8250;','Next photo');
+var c=document.createElement('span');c.className='gal-count';
+if(src.length>1){st.appendChild(p);st.appendChild(n);st.appendChild(c)}
+g.appendChild(st);g.appendChild(cap);
+var ths=[];
+if(src.length>1){var th=document.createElement('div');th.className='gal-thumbs';
+ths=src.map(function(x,i){var t=document.createElement('img');t.src=x.s;t.alt=x.a;t.onclick=function(){show(i)};th.appendChild(t);return t});g.appendChild(th)}
+function show(i){cur=(i+src.length)%src.length;big.src=src[cur].s;big.alt=src[cur].a;cap.textContent=src[cur].a;c.textContent=(cur+1)+' / '+src.length;
+ths.forEach(function(t,j){t.classList.toggle('on',j===cur)});
+if(ths.length){var th=ths[0].parentNode,t=ths[cur];th.scrollTo({left:t.offsetLeft-th.clientWidth/2+t.offsetWidth/2,behavior:'smooth'})}}
+p.onclick=function(){show(cur-1)};n.onclick=function(){show(cur+1)};
+big.onclick=function(){window.open(src[cur].s,'_blank')};
+show(0);
+});
+</script>
 <!-- end custom footer snippets -->
