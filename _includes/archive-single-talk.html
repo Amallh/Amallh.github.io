@@ -25,6 +25,9 @@
           alt="">
       </div>
     {% endif %}
+    {% if post.header.teaser and include.type != "grid" %}
+      <img src="{{ post.header.teaser | prepend: "/images/" | prepend: base_path }}" alt="" style="float:right; width:110px; height:110px; object-fit:cover; border-radius:8px; margin:0 0 0.5em 1em;">
+    {% endif %}
     <h2 class="archive__item-title" itemprop="headline">
       {% if post.link %}
         <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
