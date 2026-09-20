@@ -14,4 +14,14 @@ Together with my EMMBIOME cohort, I took part in a hands-on day at ISLE Academy 
 
 The hands-on demos and conversations gave a close look at how innovation is shaping the next generation of patient care.
 
-![Hands-on session with the Da Vinci surgical system at ISLE Academy](/images/talk-ieee-bhi-2024.jpg)
+<div class="gal">
+<img src="/images/talk-ieee-bhi-2024.jpg" alt="Hands-on session with the Da Vinci surgical system at ISLE Academy" loading="lazy">
+<img src="/images/davinci-1.jpg" alt="Workshop session at ISLE Academy" loading="lazy">
+<img src="/images/davinci-2.jpg" alt="Demonstration of the Da Vinci surgical system" loading="lazy">
+<img src="/images/davinci-3.jpg" alt="Group photo outside ISLE Academy" loading="lazy">
+<img src="/images/davinci-5.jpg" alt="Group photo at the end of the hands-on day" loading="lazy">
+<img src="/images/davinci-6.jpg" alt="The Da Vinci robotic arms up close" loading="lazy">
+<img src="/images/davinci-7.jpg" alt="GE HealthCare training room" loading="lazy">
+<img src="/images/davinci-8.jpg" alt="Cardiac CT images in the GE HealthCare imaging software" loading="lazy">
+<img src="/images/davinci-4.jpg" alt="Flipchart with the names and countries of the participants" loading="lazy">
+</div>
